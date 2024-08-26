@@ -12,7 +12,8 @@ multiply monthly interest rate and monthly payment 2 and save in a variable call
 do the difference between monthly payment 2 and 1 and save in a variable called monthly payment 4
 divide monthly payment 3 by monthly payment 4 and save in a variable called division result
 multiply the principal by division result and save in a variable called multiplication
-print out the result
+round the variable multiply to 2 decimal places and save in a variable rounded number
+print out the random number
 
 
 """
@@ -36,5 +37,7 @@ monthly_payment_3 = monthly_interest_rate * monthly_payment_2
 monthly_payment_4 = monthly_payment_2 - 1
 division_result = monthly_payment_3 / monthly_payment_4
 multiplication = principal * division_result 
+number = multiplication
+rounded_number = round(number,2)
 
-print("Your monthly payment is &",(multiplication))
+print(f"Your monthly payment is ${rounded_number}")
