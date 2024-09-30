@@ -27,20 +27,20 @@ public class Task2{
 
 	if(firstUserInput < secondUserInput && firstUserInput < thirdUserInput && secondUserInput < thirdUserInput){
 
-		System.out.printf("%d,%d,%d", thirdUserInput, secondUserInput, firstUserInput);
+		System.out.printf("%d,%d,%d", firstUserInput, secondUserInput,thirdUserInput );
 
 	} 
 
 
 	if(secondUserInput < firstUserInput && secondUserInput < thirdUserInput && firstUserInput < thirdUserInput){
 
-		System.out.printf("%d,%d,%d", thirdUserInput, firstUserInput, secondUserInput);
+		System.out.printf("%d,%d,%d", secondUserInput, firstUserInput, thirdUserInput);
 
 	} 
 
 	if(thirdUserInput < firstUserInput && thirdUserInput < secondUserInput && firstUserInput < secondUserInput){
 
-		System.out.printf("%d,%d,%d", secondUserInput, firstUserInput, thirdUserInput);
+		System.out.printf("%d,%d,%d", thirdUserInput, firstUserInput, secondUserInput);
 
 	} 
 
