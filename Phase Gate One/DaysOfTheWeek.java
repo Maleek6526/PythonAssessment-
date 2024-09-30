@@ -9,7 +9,7 @@ display the future day of the week
 
 import java.util.Scanner;
 
-public class Task3{
+public class DaysOfTheWeek{
 
 	public static void main(String[] args){
 

@@ -9,7 +9,7 @@ display the sum
 
 import java.util.Scanner;
 
-public class Task4{
+public class SumOfIntegers{
 
 	public static void main(String[] args){
 

@@ -4,7 +4,7 @@ create a variable called 'b' and input numbers ranging from 2 to 6
 create a variable called 'a**b' and input the value of a raise to power b
 */
 
-public class Task5{
+public class TableDisplay{
 
 	public static void main(String[] args){
 

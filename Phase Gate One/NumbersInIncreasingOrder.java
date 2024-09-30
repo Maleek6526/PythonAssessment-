@@ -6,7 +6,7 @@ display then in decreasing order
 
 import java.util.Scanner;
 
-public class Task2{
+public class NumbersInIncreasingOrder{
 
 	public static void main(String[] args){
 

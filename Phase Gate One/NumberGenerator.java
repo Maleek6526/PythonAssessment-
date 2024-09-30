@@ -7,7 +7,7 @@ if the user got it wrong, display false
 */
 
 import java.util.Scanner;
-public class Task1{
+public class NumberGenerator{
 
 	public static void main(String[] args){
 
