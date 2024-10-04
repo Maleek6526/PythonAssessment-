@@ -9,7 +9,7 @@
 import math
 
 def divide_or_square(number):		
-	if type(number)!= int:
+	if type(number)!= 'int':
 		return 0
 
 	if number > 0:
@@ -20,6 +20,6 @@ def divide_or_square(number):
 			return remainder
 
 
-user_input = int(input("Enter a number: "))
+user_input = input("Enter a number: ")
 print(divide_or_square(user_input))
 	
