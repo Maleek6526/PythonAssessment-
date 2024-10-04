@@ -11,7 +11,7 @@ import math
 def divide_or_square(number):		
 	if number > 0:
 		if number % 5 == 0:
-			return math.sqrt(number)
+			return round(math.sqrt(number),2)
 		else:
 			remainder = number % 5
 			return remainder
