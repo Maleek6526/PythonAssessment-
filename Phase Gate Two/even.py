@@ -1,5 +1,6 @@
 '''
-1. Write a program that will find all
+1. Write a program that allows input ranging from 1000 to 3000
+2. print in arrays
 '''
 
 
