@@ -1,18 +1,59 @@
-'''
-
-'''
-
-def Single_filers():
+def single_filers():
 	user_input = float(input("You claimed to be a single, please do enter your taxable income:  "))
 	if user_input > 0:
-		while user_input != 0:	
-			ten_percent_calculation = (10 / 100) * 8350
-			user_input = user_input - 8350
+		balance = user_input - 8350
+		at_10 = (10 / 100) * 8350
+		print(at_10)
+		return at_10
+		if balance > 0:
+			new_balance = (15 / 100) * balance
+			addition = at_10 + new_balance
+			print(addition)
+		return addition
+
+
+def married_filing_jointly():
+	user_input = float(input("You claimed to be a Married_filing_jointly, please do enter your taxable income:  "))
+	if user_input > 0:
+		balance = user_input - 16700
+		at_10% = (10 / 100) * 16700
+		print(at_10%)
+		return at_10%
+		if balance > 0:
+			new_balance = (15 / 100) * balance
+			addition = at_10% + at_15%
+			print(addition)
+		return addition
+
+def married_filing_separately():
+	user_input = float(input("You claimed to be a Married Filing Separately, please do enter your taxable income:  "))
+	if user_input > 0:
+		balance = user_input - 8350
+		at_10% = (10 / 100) * 8350
+		print(at_10%)
+		return at_10%
+		if balance > 0:
+			new_balance = (15 / 100) * balance
+			addition = at_10% + at_15%
+			print(addition)
+		return addition
+
+
+def head_of_household():
+	user_input = float(input("You claimed to be a Married Filing Separately, please do enter your taxable income:  "))
+	if user_input > 0:
+		balance = user_input - 11950
+		at_10% = (10 / 100) * 11950
+		print(at_10%)
+		return at_10%
+		if balance > 0:
+			new_balance = (15 / 100) * balance
+			addition = at_10% + at_15%
+			print(addition)
+		return addition
+
 			
-			if user_input != 0:	
-			at_15% = user_input 
-			addition = at_10% + user_input
-			print(addition)	
+			
 		
 
 
@@ -31,11 +72,12 @@ def main():
 
 	users_choice  int(input("Enter your choice: "))
 	match users_choice:
-		case 0: Single_filers() break
-		case 1: Married_filing_jointly() break
-		case 2: Married_filing_separately() break
-		case 3: Head_of_household() break
+		case 0: single_filers() break
+		case 1: married_filing_jointly() break
+		case 2: married_filing_separately() break
+		case 3: head_of_household() break
 		case _: print("Please follow the rules")
 
+main()
 
 
